@@ -13,6 +13,8 @@
 		F493F27B24BF7FBF00CEE9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F493F27A24BF7FBF00CEE9EB /* Assets.xcassets */; };
 		F493F27E24BF7FBF00CEE9EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F493F27D24BF7FBF00CEE9EB /* Preview Assets.xcassets */; };
 		F493F28124BF7FBF00CEE9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F493F27F24BF7FBF00CEE9EB /* LaunchScreen.storyboard */; };
+		F493F28A24BF864100CEE9EB /* Caveat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F493F28924BF864100CEE9EB /* Caveat-Bold.ttf */; };
+		F493F29024BF91A000CEE9EB /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F493F28F24BF91A000CEE9EB /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F493F27D24BF7FBF00CEE9EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F493F28024BF7FBF00CEE9EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F493F28224BF7FBF00CEE9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F493F28924BF864100CEE9EB /* Caveat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caveat-Bold.ttf"; sourceTree = "<group>"; };
+		F493F28F24BF91A000CEE9EB /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		F493F27324BF7FBE00CEE9EB /* BusinessCardSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F493F28824BF862800CEE9EB /* fonts */,
 				F493F27424BF7FBE00CEE9EB /* AppDelegate.swift */,
 				F493F27624BF7FBE00CEE9EB /* SceneDelegate.swift */,
 				F493F27824BF7FBE00CEE9EB /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				F493F27F24BF7FBF00CEE9EB /* LaunchScreen.storyboard */,
 				F493F28224BF7FBF00CEE9EB /* Info.plist */,
 				F493F27C24BF7FBF00CEE9EB /* Preview Content */,
+				F493F28F24BF91A000CEE9EB /* InfoView.swift */,
 			);
 			path = BusinessCardSwiftUI;
 			sourceTree = "<group>";
@@ -73,6 +79,14 @@
 				F493F27D24BF7FBF00CEE9EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F493F28824BF862800CEE9EB /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F493F28924BF864100CEE9EB /* Caveat-Bold.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F493F28124BF7FBF00CEE9EB /* LaunchScreen.storyboard in Resources */,
+				F493F28A24BF864100CEE9EB /* Caveat-Bold.ttf in Resources */,
 				F493F27E24BF7FBF00CEE9EB /* Preview Assets.xcassets in Resources */,
 				F493F27B24BF7FBF00CEE9EB /* Assets.xcassets in Resources */,
 			);
@@ -146,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F493F29024BF91A000CEE9EB /* InfoView.swift in Sources */,
 				F493F27524BF7FBE00CEE9EB /* AppDelegate.swift in Sources */,
 				F493F27724BF7FBE00CEE9EB /* SceneDelegate.swift in Sources */,
 				F493F27924BF7FBE00CEE9EB /* ContentView.swift in Sources */,
